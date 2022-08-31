@@ -11,6 +11,7 @@ body {
   width: 428px;
   height: 927px;
   background: #EDEDED;
+  font-family: "Roboto", sans-serif !important;
 }
 
 .menu {
@@ -19,6 +20,14 @@ body {
   align-items: center;
   width: 100%;
   height: 101px;
+}
+.menu span {
+  font-size: 20px;
+}
+.menu span img {
+  width: 40px;
+  height: 40px;
+  opacity: 50%;
 }
 
 .infoCancion {
@@ -34,10 +43,16 @@ body {
   width: 300px;
   height: 300px;
   margin-top: 43px;
-  background: #99EFDA;
+  background: url("/unveranosinti.jpg");
+  background-position: center;
+  background-size: cover;
   border: 8px solid white;
   border-radius: 17px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25), -10px -10px 15px rgba(255, 255, 255, 0.5), -10px -10px 15px rgba(255, 255, 255, 0.5);
+}
+.fotoAlbum img {
+  width: 300px;
+  height: 300px;
 }
 
 .nombre {
@@ -46,6 +61,13 @@ body {
   align-items: center;
   flex-flow: column nowrap;
   margin-top: 41px;
+}
+.nombre span {
+  font-size: 20px;
+}
+.nombre .artista {
+  font-size: 16px;
+  color: #646464;
 }
 
 .artista {
@@ -65,11 +87,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 277px;
+  width: 316px;
 }
 
 .barraPrincipal {
-  width: 277px;
+  width: 316px;
   height: 12px;
   background: #D9D9D9;
   border-radius: 4px;
@@ -114,11 +136,19 @@ body {
   width: 51px;
   height: 51px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25), -10px -10px 15px rgba(255, 255, 255, 0.5), -10px -10px 15px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #E5E9E8;
   border: 8px solid #FFFFFF;
   border-radius: 100%;
   margin: 11.5px;
   order: 2;
+}
+.atras img {
+  width: 21px;
+  height: 21px;
+  opacity: 50%;
 }
 
 .atrasRapido {
@@ -126,11 +156,20 @@ body {
   width: 51px;
   height: 51px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25), -10px -10px 15px rgba(255, 255, 255, 0.5), -10px -10px 15px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #E5E9E8;
   border: 8px solid #FFFFFF;
   border-radius: 100%;
   margin: 11.5px;
   order: 1;
+}
+.atrasRapido img {
+  width: 21px;
+  height: 21px;
+  transform: rotate(180deg);
+  opacity: 50%;
 }
 
 .adelantar {
@@ -138,11 +177,20 @@ body {
   width: 51px;
   height: 51px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25), -10px -10px 15px rgba(255, 255, 255, 0.5), -10px -10px 15px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #E5E9E8;
   border: 8px solid #FFFFFF;
   border-radius: 100%;
   margin: 11.5px;
   order: 4;
+}
+.adelantar img {
+  width: 21px;
+  height: 21px;
+  transform: rotate(180deg);
+  opacity: 50%;
 }
 
 .adelantarRapido {
@@ -150,11 +198,20 @@ body {
   width: 51px;
   height: 51px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25), -10px -10px 15px rgba(255, 255, 255, 0.5), -10px -10px 15px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #E5E9E8;
   border: 8px solid #FFFFFF;
   border-radius: 100%;
   margin: 11.5px;
   order: 5;
+}
+.adelantarRapido img {
+  width: 21px;
+  height: 21px;
+  transform: rotate(360deg);
+  opacity: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
